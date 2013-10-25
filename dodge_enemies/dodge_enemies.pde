@@ -76,13 +76,13 @@ void draw() {
 
 void keyPressed() {                                        // when a key is pressed
   if (playMode) {                                          // if play mode is active
-    if ((key == CODED) && (keyCode == DOWN)) {             // if the key is the down arrow
+    if (key == CODED && keyCode == DOWN) {             // if the key is the down arrow
       playerY += incVal;                                   // increase the y position of the player by the number of pixels specified by incVal (move the player down)
       if (playerY > height - 10) {                         // if the player has moved beyond the bottom of the screen
         playerY -= incVal;                                 // move the player back up
       }
     }
-    if ((key == CODED) && (keyCode == UP)) {               // if the key is the up arrow
+    if (key == CODED && keyCode == UP) {               // if the key is the up arrow
       playerY -= incVal;                                   // decrease the y position of the player by the number of pixels specified by incVal (move the player up)
       if (playerY < 10) {                                  // if the player has moved beyond the top of the screen
         playerY += incVal;                                 // move the player back down
