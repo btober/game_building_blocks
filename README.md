@@ -30,12 +30,12 @@ Examples
 
 The following represent some of the games that have been designed and developed, in part, by using one or more of the *Blocks*:
 
-- [*Bird Adventure*](http://cargocollective.com/laurenblackburn/bird-adventure) by Lauren Blackburn
-- [*Tree Hop*](http://www.evanjarzynski.com/tree_hop.html) by Evan Jarzynski
-- [*Square Shock*](http://www.olivialafaire.com/game.html) by Olivia La Faire
-- [*Trace*](http://www.jessicametro.com/trace) by Jessica Metro ([GitHub repository](https://github.com/jessicametro/game---tracing))
-- [*Gold Digger*](http://willryan.us/golddigger.html) by Will Ryan
-- [*Rascal Race*](http://michaelzhangdesign.com/rascalrace.html) by Michael Zhang 
+- [Bird Adventure](http://cargocollective.com/laurenblackburn/bird-adventure) by Lauren Blackburn
+- [Tree Hop](http://www.evanjarzynski.com/tree_hop.html) by Evan Jarzynski
+- [Square Shock](http://www.olivialafaire.com/game.html) by Olivia La Faire
+- [Trace](http://www.jessicametro.com/trace) by Jessica Metro ([GitHub repository](https://github.com/jessicametro/game---tracing))
+- [Gold Digger](http://willryan.us/golddigger.html) by Will Ryan
+- [Rascal Race](http://michaelzhangdesign.com/rascalrace.html) by Michael Zhang 
 
 
 License
