@@ -21,7 +21,7 @@ This project is in continued development, with more *Blocks* expected to be adde
 Requirements
 ------------
 
-All of the *Blocks* have been tested and function properly with Processing 2.0.3, in both Java and JavaScript modes.
+All of the *Blocks* have been tested with Processing 2.0.3, in both Java and JavaScript modes.
 
 
 Examples
