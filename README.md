@@ -14,6 +14,7 @@ Blocks
 ------
 
 - **circle\_square\_triangle** is an implementation of *Rock-paper-scissors*, played against the computer.
+- **dodge\_enemies** demonstrates basic animation, keyboard-based movement, and collision detection.
 
 This project is in continued development, with more *Blocks* expected to be added over time.
 
