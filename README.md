@@ -18,8 +18,8 @@ Blocks
 This project is in continued development, with more *Blocks* expected to be added over time.
 
 
-Requirements
-------------
+Compatibility
+-------------
 
 All of the *Blocks* have been tested with Processing 2.0.3, in both Java and JavaScript modes.
 
