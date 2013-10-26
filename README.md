@@ -21,6 +21,7 @@ Blocks
 - **simple\_maze** tasks a player with navigating a cursor through a maze.
 - **speed\_click** requires shapes to be clicked on in quick succession to be destroyed.
 - **spot\_the\_difference** demonstrates a simple game with multiple levels.
+- **word\_guess** has a player sequentially guess the letters of a randomly chosen word.
 
 This project is in continued development, with more *Blocks* expected to be added over time.
 
