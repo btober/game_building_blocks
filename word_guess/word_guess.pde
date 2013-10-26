@@ -55,7 +55,7 @@ void draw() {
 void keyPressed() {     
   incorrect = false;                                                          // reset the incorrect message
   if (currentChar < words[chosenWord].length()) {                             // if the current letter is before the end of the word
-    if (str(key).equals(str(words[chosenWord].charAt(currentChar)))) {                       // if the key pressed is the next letter in the word
+    if (str(key).equals(str(words[chosenWord].charAt(currentChar)))) {        // if the key pressed is the next letter in the word
       shownLetters[currentChar] = words[chosenWord].charAt(currentChar);      // add that letter to the list of identified letters
       if (currentChar == words[chosenWord].length() - 1) {                    // if the current letter is the last letter in the word
         endGame = true;                                                       // game over
