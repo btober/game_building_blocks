@@ -19,6 +19,7 @@ Blocks
 - **response\_time** tests how fast two players can press their corresponding keys on the keyboard.
 - **shape\_tracing** challenges a player to accurately trace a displayed shape before time is up.
 - **simple\_maze** tasks a player with navigating a cursor through a maze.
+- **speed\_click** requires shapes to be clicked on in quick succession to be destroyed.
 
 This project is in continued development, with more *Blocks* expected to be added over time.
 
