@@ -14,7 +14,7 @@ Blocks
 ------
 
 - **circle\_square\_triangle**: an implementation of *Rock-paper-scissors*, played against the computer
-- **dodge\_enemies**: avoid moving enemies using the keyboard
+- **dodge\_enemies**: avoid moving shapes using the keyboard
 - **item\_collecting**: collect moving shapes using the mouse
 - **response\_time**: press a specified key before a challenger can press theirs
 - **shape\_tracing**: accurately trace a displayed shape before time is up
