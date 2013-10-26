@@ -17,6 +17,7 @@ Blocks
 - **dodge\_enemies** demonstrates how to avoid moving enemies using keyboard-based movement.
 - **item\_collecting** shows how to count the number of moving shapes collected using the mouse.
 - **response\_time** tests how fast two players can press their corresponding keys on the keyboard.
+- **shape\_tracing** challenges a player to accurately trace a displayed shape before time is up.
 
 This project is in continued development, with more *Blocks* expected to be added over time.
 
@@ -35,7 +36,6 @@ The following represent some of the games that have been designed and developed,
 - [Bird Adventure](http://cargocollective.com/laurenblackburn/bird-adventure) by Lauren Blackburn
 - [Tree Hop](http://www.evanjarzynski.com/tree_hop.html) by Evan Jarzynski
 - [Square Shock](http://www.olivialafaire.com/game.html) by Olivia La Faire
-- [Trace](http://www.jessicametro.com/trace) by Jessica Metro ([GitHub repository](https://github.com/jessicametro/game---tracing))
 - [Gold Digger](http://willryan.us/golddigger.html) by Will Ryan
 - [Rascal Race](http://michaelzhangdesign.com/rascalrace.html) by Michael Zhang 
 
