@@ -13,15 +13,15 @@ The *Blocks* are not intended to be fully realized and refined games, nor are th
 Blocks
 ------
 
-- **circle\_square\_triangle** is an implementation of *Rock-paper-scissors*, played against the computer.
-- **dodge\_enemies** demonstrates how to avoid moving enemies using keyboard-based movement.
-- **item\_collecting** shows how to count the number of moving shapes collected using the mouse.
-- **response\_time** tests how fast two players can press their corresponding keys on the keyboard.
-- **shape\_tracing** challenges a player to accurately trace a displayed shape before time is up.
-- **simple\_maze** tasks a player with navigating a cursor through a maze.
-- **speed\_click** requires shapes to be clicked on in quick succession to be destroyed.
-- **spot\_the\_difference** demonstrates a simple game with multiple levels.
-- **word\_guess** has a player sequentially guess the letters of a randomly chosen word.
+- **circle\_square\_triangle**: an implementation of *Rock-paper-scissors*, played against the computer
+- **dodge\_enemies**: avoid moving enemies using the keyboard
+- **item\_collecting**: collect moving shapes using the mouse
+- **response\_time**: press a specified key before a challenger can press theirs
+- **shape\_tracing**: accurately trace a displayed shape before time is up
+- **simple\_maze**: navigate a cursor through a maze
+- **speed\_click**: destroy shapes by clicking on them in quick succession
+- **spot\_the\_difference**: spot the different object in each level
+- **word\_guess**: sequentially guess the letters of a randomly chosen word
 
 This project is in continued development, with more *Blocks* expected to be added over time.
 
