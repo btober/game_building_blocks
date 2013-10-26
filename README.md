@@ -16,6 +16,7 @@ Blocks
 - **circle\_square\_triangle** is an implementation of *Rock-paper-scissors*, played against the computer.
 - **dodge\_enemies** demonstrates how to avoid moving enemies using keyboard-based movement.
 - **item\_collecting** shows how to count the number of moving shapes collected using the mouse.
+- **response\_time** tests how fast two players can press their corresponding key on the keyboard.
 
 This project is in continued development, with more *Blocks* expected to be added over time.
 
