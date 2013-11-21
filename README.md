@@ -14,9 +14,11 @@ Blocks
 ------
 
 - **circle\_square\_triangle**: an implementation of *Rock-paper-scissors*, played against the computer
+- **dig\_path**: use the keyboard to dig downwards and leave a path behind
 - **dodge\_enemies**: avoid moving shapes using the keyboard
 - **item\_collecting**: collect moving shapes using the mouse
 - **response\_time**: press a specified key before a challenger can press theirs
+- **sequence\_recall**: recall a specified sequence by pressing a series of buttons
 - **shape\_tracing**: accurately trace a displayed shape before time is up
 - **simple\_maze**: navigate a cursor through a maze
 - **speed\_click**: destroy shapes by clicking on them in quick succession
