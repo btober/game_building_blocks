@@ -59,24 +59,26 @@ void drawButton(int x, int y, int radius, String label) {                       
 }
 
 void mousePressed() {                                                                      // when the mouse is pressed
-  for (int i = 0; i < buttonX.length; i++) {                                               // for all of the buttons
-    if (mouseX > buttonX[i] && mouseX < buttonX[i] + (buttonR * 2) && mouseY > buttonY[i] && mouseY < buttonY[i] + (buttonR * 2)) {      // if the mouse pointer is within the area of one of the buttons
-      if (currentStep < sequence.length()) {                                               // if the player hasn't recalled the entire sequence yet
-        if (str(i).equals(str(sequence.charAt(currentStep)))) {                            // if the button pressed is the next step in the sequence
-          selectedSteps = selectedSteps.concat(str(i));                                    // add the step to the String of the steps the player has already recalled
-          currentStep++;                                                                   // increment the step counter
-          if (currentStep == sequence.length()) {                                          // if the player has reached the end of the sequence
-            message = false;
-            playerWins = true;                                                             // the player wins
-          } else {
-            message = true;                                                                // otherwise display a message
-            messageText = "Correct!";
-            messageTime = millis();
+  if ((millis() - startTime) > dispTime) {                                                 // if the sequence display timer isn't currently active
+    for (int i = 0; i < buttonX.length; i++) {                                             // for all of the buttons
+      if (mouseX > buttonX[i] && mouseX < buttonX[i] + (buttonR * 2) && mouseY > buttonY[i] && mouseY < buttonY[i] + (buttonR * 2)) {      // if the mouse pointer is within the area of one of the buttons
+        if (currentStep < sequence.length()) {                                             // if the player hasn't recalled the entire sequence yet
+          if (str(i).equals(str(sequence.charAt(currentStep)))) {                          // if the button pressed is the next step in the sequence
+            selectedSteps = selectedSteps.concat(str(i));                                  // add the step to the String of the steps the player has already recalled
+            currentStep++;                                                                 // increment the step counter
+            if (currentStep == sequence.length()) {                                        // if the player has reached the end of the sequence
+              message = false;
+              playerWins = true;                                                           // the player wins
+            } else {
+              message = true;                                                              // otherwise display a message
+              messageText = "Correct!";
+              messageTime = millis();
+            }
+          } else {                                                                         // if the button pressed is not the next step in the sequence
+            message = true;                                                                // display a message
+            messageText = "Incorrect!";
+            messageTime = millis();  
           }
-        } else {                                                                           // if the button pressed is not the next step in the sequence
-          message = true;                                                                  // display a message
-          messageText = "Incorrect!";
-          messageTime = millis();  
         }
       }
     }
