@@ -7,7 +7,7 @@ Processing, "a programming language, development environment, and online communi
 
 In the first stage of the project, students brainstorm a functional flow structure for their desired game. Opportunities for leveraging existing sources of relevant code, which include the *Game Building Blocks for Processing*, as well as other pieces of code that developers have freely shared elsewhere, are identified at this point. It is then up to the students to analyze these pieces of code, understand how they operate, and synthesize/extend them to form their envisioned game [3].
 
-The *Blocks* are not intended to be fully realized and refined games, nor are they examples of highly optimized code. Rather, they focus on demonstrating basic game component logic through neatly formatted code that has been commented in detail.
+The *Blocks* are not intended to be fully realized and refined games, nor are they examples of highly optimized code. Rather, they focus on demonstrating basic game component logic through neatly formatted code that has been commented in detail. The use of objects is deliberately avoided in order to more clearly reveal the logic behind certain functional aspects.
 
 
 Blocks
