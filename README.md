@@ -20,6 +20,7 @@ Blocks
 - **response\_time**: press a specified key before a challenger can press theirs
 - **sequence\_recall**: recall a specified sequence by pressing a series of buttons
 - **shape\_tracing**: accurately trace a displayed shape before time is up
+- **shooter**: shoot moving enemies before they hit you; hold down the mouse to increase shot speed
 - **simple\_maze**: navigate a cursor through a maze
 - **speed\_click**: destroy shapes by clicking on them in quick succession
 - **spot\_the\_difference**: spot the different object in each level
