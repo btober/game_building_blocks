@@ -38,9 +38,9 @@ void draw() {
     } else {                                                       // otherwise...
       numIncorrect++;                                              // ...increase the incorrect score
     }
-    itemX = width/2;                                               // reset the x position of the item to be in the middle of the window
-    itemY = 50;                                                    // reset the y position of the item
-    itemType = int(random(1, 4));                                  // determine the type of the item
+    itemX = width/2;                                               // reset the x position of the new item to be in the middle of the window
+    itemY = 50;                                                    // reset the y position of the new item
+    itemType = int(random(1, 4));                                  // determine the type of the new item
   }  
 }
 
