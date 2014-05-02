@@ -18,12 +18,12 @@ void setup() {
   smooth();
   noStroke();
   interval = width/items;                                                                          // calculate column width
-  level1x = floor(random(0, 4.99));                                                                // choose the random column for the different level1 object
-  level1y = floor(random(0, 4.99));                                                                // choose the random row for the different level1 object
-  level2x = floor(random(0, 4.99));                                                                // choose the random column for the different level2 object
-  level2y = floor(random(0, 4.99));                                                                // choose the random row for the different level2 object
-  level3x = floor(random(0, 4.99));                                                                // choose the random column for the different level3 object
-  level3y = floor(random(0, 4.99));                                                                // choose the random row for the different level3 object
+  level1x = floor(random(0, 5));                                                                // choose the random column for the different level1 object
+  level1y = floor(random(0, 5));                                                                // choose the random row for the different level1 object
+  level2x = floor(random(0, 5));                                                                // choose the random column for the different level2 object
+  level2y = floor(random(0, 5));                                                                // choose the random row for the different level2 object
+  level3x = floor(random(0, 5));                                                                // choose the random column for the different level3 object
+  level3y = floor(random(0, 5));                                                                // choose the random row for the different level3 object
   println("Click on the object that differs from the rest in each level.");
 }
 
