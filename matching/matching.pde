@@ -33,7 +33,7 @@ void setup() {
   matches = new int[rows * cols];
   for (int i = 0; i < matches.length/2; i++) {                                                    // assign paired numbers to matches array
     matches[i] = i;
-    matches[i + matches.length/2] = i;    
+    matches[i + matches.length/2] = i;
   }
   matches = shuffle(matches);                                                                     // randomize matches array, see shuffle() below
   matchID = new int[rows][cols];
@@ -75,28 +75,31 @@ void mousePressed() {
   for (int i = 0; i < rows; i++) {
     for (int j = 0; j < cols; j++) {
       if (mouseX > ((j * 100) + hInterval/2) - shapeDim/2
-       && mouseX < ((j * 100) + hInterval/2) + shapeDim/2
-       && mouseY > ((i * 100) + vInterval/2) - shapeDim/2
-       && mouseY < ((i * 100) + vInterval/2) + shapeDim/2) {                                      // if the player clicks on an item...
+        && mouseX < ((j * 100) + hInterval/2) + shapeDim/2
+        && mouseY > ((i * 100) + vInterval/2) - shapeDim/2
+        && mouseY < ((i * 100) + vInterval/2) + shapeDim/2) {                                      // if the player clicks on an item...
         if (showItem[i][j]) {                                                                     // if the item is shown...
           showItem[i][j] = false;                                                                 // ...hide it
           lastI = -1;
           lastJ = -1;
-        } else {                                                                                  // otherwise (if the item is hidden)...
+        } 
+        else {                                                                                  // otherwise (if the item is hidden)...
           if (lastI == -1 && lastJ == -1) {                                                       // if the item is the first of a prospective pair to be clicked...
             showItem[i][j] = true;                                                                // ...show the item
             lastI = i;                                                                            // ...identify it as the last item clicked
             lastJ = j;
-          } else if (matchID[lastI][lastJ] == matchID[i][j] && !(lastI == i && lastJ == j)) {     // if the item clicked is not the previous one clicked and it matches the previous one clicked...
+          } 
+          else if (matchID[lastI][lastJ] == matchID[i][j] && !(lastI == i && lastJ == j)) {     // if the item clicked is not the previous one clicked and it matches the previous one clicked...
             removed[i][j] = true;                                                                 // ...remove the item clicked
             removed[lastI][lastJ] = true;                                                         // ...remove the previous item clicked
             lastI = -1;                                                                           // ...reset the previous item clicked
-            lastJ = -1; 
-          } else {                                                                                // otherwise (if not a match to the previous item clicked)...
+            lastJ = -1;
+          } 
+          else {                                                                                // otherwise (if not a match to the previous item clicked)...
             showItem[i][j] = false;                                                               // ...hide the item clicked
             showItem[lastI][lastJ] = false;                                                       // ...hide the previous item clicked
             lastI = -1;                                                                           // ...reset the previous item clicked
-            lastJ = -1; 
+            lastJ = -1;
           }
         }
       }
@@ -110,7 +113,7 @@ void keyPressed() {
     showAll = true;                                                                               // ...show all items
     showTimer = millis();                                                                         // ...start the timer that determines how long they wil be visible
     helpCount++;                                                                                  // ...increase the number of times help has been used
-  }  
+  }
 }
 
 int[] shuffle(int[] toShuffle) {                                                                  // from http://processing.org/discourse/beta/num_1194572947.html
@@ -122,11 +125,13 @@ int[] shuffle(int[] toShuffle) {                                                
     i++;
     if (rnd > 0 && rnd < toShuffle.length-1) {
       toShuffle = concat(subset(toShuffle, 0, rnd), subset(toShuffle, rnd+1, toShuffle.length-rnd-1));
-    } else if (rnd == 0) {
+    } 
+    else if (rnd == 0) {
       toShuffle = subset(toShuffle, 1, toShuffle.length-1);
-    } else {
+    } 
+    else {
       toShuffle = shorten(toShuffle);
-    }  
+    }
   }
   return shuffled;
 }
@@ -135,10 +140,11 @@ boolean winCheck(boolean[][] removed) {                                         
   for (int i = 0; i < rows; i++) {
     for (int j = 0; j < cols; j++) {
       if (removed[i][j] == false) {
-        return false;  
+        return false;
       }
     }
   }
   println("You win!");  
   return true;
 }
+
