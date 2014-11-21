@@ -17,6 +17,7 @@ Blocks
 - **dig\_path**: use the keyboard to dig downwards and leave a path behind
 - **dodge\_enemies**: avoid moving shapes using the keyboard
 - **item\_collecting**: collect moving shapes using the mouse
+- **item\_collecting2**: a variation on item_collecting; move shapes into a container
 - **matching**: identify and remove matched pairs of items
 - **response\_time**: press a specified key before a challenger can press theirs
 - **sequence\_recall**: recall a specified sequence by pressing a series of buttons
@@ -34,7 +35,7 @@ This project is in continued development, with more *Blocks* expected to be adde
 Compatibility
 -------------
 
-All of the *Blocks* have been tested with Processing 2.0.3, in both Java and JavaScript modes.
+All of the *Blocks* have been tested with Processing 2.2.1, in both Java and JavaScript modes.
 
 
 Examples
@@ -43,10 +44,12 @@ Examples
 The following represent some of the games that have been designed and developed, in part, by using one or more of the *Blocks*:
 
 - [Bird Adventure](http://cargocollective.com/laurenblackburn/bird-adventure) by Lauren Blackburn
-- [Tree Hop](http://www.evanjarzynski.com/tree_hop.html) by Evan Jarzynski
+- [Kitty Bounce](http://www.taylorkcarlson.com/#/kitty-bounce) by Taylor Carlson
+- [Le Cafe](http://www.yoojinhongdesign.com/#/le-cafe1) by Yoojin Hong
+- [Tree Hop](http://www.evanjarzynski.com/treehop.html) by Evan Jarzynski
 - [Square Shock](http://www.olivialafaire.com/game.html) by Olivia La Faire
-- [Gold Digger](http://willryan.us/golddigger.html) by Will Ryan
-- [Rascal Race](http://michaelzhangdesign.com/rascalrace.html) by Michael Zhang 
+- [Gold Digger](http://www.imwillryan.com/gold-digger.html) by Will Ryan
+- [The Mighty White Blood Cell](http://cargocollective.com/sansonedesign/The-Mighty-White-Blood-Cell) by Stacie Sansone 
 
 
 License
@@ -68,4 +71,4 @@ References
 
 1. *Processing.org*. Processing. 2013. Web. 25 Oct. 2013. <http://www.processing.org/>.
 2. Tober, Brad. "Keeping the Balance: Copyright, Plagiarism, and Creative Code in the Classroom." *Interartive* 50 (2013). Web. 25 Oct. 2013. <http://artcopyright.interartive.org/copyright-plagiarism-creative-code/>.
-3. Tober, Brad. "Creative Code in the Design Classroom: Better Preparing Students for Contemporary Professional Practice through Research-Informed Teaching." *An Illinois Sampler: Talking about Teaching and Research on the Prairie*. Ed. Antoinette Burton and Mary-Ann Winkelmes. Champaign, IL: U of I Press, 2013. Print. 
+3. Tober, Brad. "Creative Code in the Design Classroom: Preparing Students for Contemporary Professional Practice." *An Illinois Sampler:Teaching and Research on the Prairie*. Eds. Antoinette Burton and Mary-Ann Winkelmes. Champaign, IL: U of I Press, 2014. Print. 
