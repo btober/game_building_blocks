@@ -14,6 +14,7 @@ Blocks
 ------
 
 - **circle\_square\_triangle**: an implementation of *Rock-paper-scissors*, played against the computer
+- **cups**: an implementation of the classic cup game: pick the correct circle after it has been moved around
 - **dig\_path**: use the keyboard to dig downwards and leave a path behind
 - **dodge\_enemies**: avoid moving shapes using the keyboard
 - **floater**: move between two goals by using the space bar

@@ -12,6 +12,7 @@ boolean topIsCurrentGoal = true;                             // whether or not t
 void setup() {
   size(400, 600);
   noStroke();
+  println("Move between the two goals by using the space bar.");
 }
 
 void draw() {
