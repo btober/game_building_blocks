@@ -16,6 +16,7 @@ Blocks
 - **circle\_square\_triangle**: an implementation of *Rock-paper-scissors*, played against the computer
 - **dig\_path**: use the keyboard to dig downwards and leave a path behind
 - **dodge\_enemies**: avoid moving shapes using the keyboard
+- **floater**: move between two goals by using the space bar
 - **item\_collecting**: collect moving shapes using the mouse
 - **item\_collecting2**: a variation on item_collecting; move shapes into a container
 - **matching**: identify and remove matched pairs of items
