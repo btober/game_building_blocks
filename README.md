@@ -20,7 +20,7 @@ Blocks
 - **floater**: move between two goals by using the space bar
 - **item\_collecting**: collect moving shapes using the mouse
 - **item\_collecting2**: a variation on item_collecting; move shapes into a container
-- **item\_collecting3**: a variation on item_collecting; collect shapes with the keyboard before they fade away
+- **item\_collecting3**: a variation on item_collecting; collect shapes before they fade away
 - **matching**: identify and remove matched pairs of items
 - **number\_sort**: arrange numbered blocks numerically using as few moves as possible
 - **racing**: a variation on response_time; move across the window before your challenger does by pressing keys repeatedly
