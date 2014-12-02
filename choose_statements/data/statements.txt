@@ -1,0 +1,10 @@
+object1, This is compliment 1, This is insult 1
+object2, This is compliment 2, This is insult 2
+object3, This is compliment 3, This is insult 3
+object4, This is compliment 4, This is insult 4
+object5, This is compliment 5, This is insult 5
+object6, This is compliment 6, This is insult 6
+object7, This is compliment 7, This is insult 7
+object8, This is compliment 8, This is insult 8
+object9, This is compliment 9, This is insult 9
+object10, This is compliment 10, This is insult 10
