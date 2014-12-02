@@ -13,6 +13,7 @@ The *Blocks* are not intended to be fully realized and refined games, nor are th
 Blocks
 ------
 
+- **block\_sequence**: match a displayed sequence using the keyboard
 - **choose\_statements**: select as many correct statements in a row as you can
 - **circle\_square\_triangle**: an implementation of *Rock-paper-scissors*, played against the computer
 - **cups**: an implementation of the classic cup game: pick the correct circle after it has been moved around
