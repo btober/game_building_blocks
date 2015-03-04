@@ -78,4 +78,4 @@ References
 
 1. *Processing.org*. Processing. 2013. Web. 25 Oct. 2013. <http://www.processing.org/>.
 2. Tober, Brad. "Keeping the Balance: Copyright, Plagiarism, and Creative Code in the Classroom." *Interartive* 50 (2013). Web. 25 Oct. 2013. <http://artcopyright.interartive.org/copyright-plagiarism-creative-code/>.
-3. Tober, Brad. "Creative Code in the Design Classroom: Preparing Students for Contemporary Professional Practice." *An Illinois Sampler:Teaching and Research on the Prairie*. Eds. Antoinette Burton and Mary-Ann Winkelmes. Champaign, IL: U of I Press, 2014. Print. 
+3. Tober, Brad. "Creative Code in the Design Classroom: Preparing Students for Contemporary Professional Practice." *An Illinois Sampler: Teaching and Research on the Prairie*. Eds. Antoinette Burton and Mary-Ann Winkelmes. Champaign, IL: U of I Press, 2014. Print. 
