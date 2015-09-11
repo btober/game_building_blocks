@@ -1,11 +1,11 @@
 Game Building Blocks for Processing
 ===================================
 
-As part of **ARTD 313 Digital Interaction**, a course taught in the [School of Art + Design](http://art.illinois.edu) at the [University of Illinois at Urbana-Champaign](http://www.illinois.edu), students learn basic programming skills in [Processing](http://www.processing.org) through the design and development of an interactive game. Most, if not all, students begin the course with absolutely no programming experience, so many of them are understandably apprehensive about the notion of creating a game from nothing in the span of a few weeks.
+My interaction design students learn basic programming skills in [Processing](http://www.processing.org) through the design and development of a digital game. Most, if not all, students begin the project with absolutely no programming experience, so many of them are understandably apprehensive about the notion of creating a game from nothing in the span of only a few weeks.
 
 Processing, "a programming language, development environment, and online community" that "promote[s] software literacy within the visual arts and visual literacy within technology," frames learning to code as involving "looking at lots of other code: running, altering, breaking, and enhancing it until you can reshape it into something new" [1]. As both a learning method and as general practice, the re-use of code written by others is actively encouraged within creative code communities [2].
 
-In the first stage of the project, students brainstorm a functional flow structure for their desired game. Opportunities for leveraging existing sources of relevant code, which include the *Game Building Blocks for Processing*, as well as other pieces of code that developers have freely shared elsewhere, are identified at this point. It is then up to the students to analyze these pieces of code, understand how they operate, and synthesize/extend them to form their envisioned game [3].
+In the first stage of the project, students design an interactive flow structure for their desired game. Opportunities for leveraging existing sources of relevant code, which include the *Game Building Blocks for Processing*, as well as other pieces of code that developers have freely shared elsewhere, are identified at this point. It is then up to the students to analyze these pieces of code, understand how they operate, and synthesize / extend them to form their envisioned game [3].
 
 The *Blocks* are not intended to be fully realized and refined games, nor are they examples of highly optimized code. Rather, they focus on demonstrating basic game component logic through neatly formatted code that has been commented in detail. The use of objects is deliberately avoided in order to more clearly reveal the logic behind certain functional aspects.
 
@@ -51,10 +51,6 @@ Examples
 The following represent some of the games that have been designed and developed, in part, by using one or more of the *Blocks*:
 
 - [Bird Adventure](http://cargocollective.com/laurenblackburn/bird-adventure) by Lauren Blackburn
-- [Kitty Bounce](http://www.taylorkcarlson.com/#/kitty-bounce) by Taylor Carlson
-- [Le Cafe](http://www.yoojinhongdesign.com/#/le-cafe1) by Yoojin Hong
-- [Tree Hop](http://www.evanjarzynski.com/treehop.html) by Evan Jarzynski
-- [Square Shock](http://www.olivialafaire.com/game.html) by Olivia La Faire
 - [Gold Digger](http://www.imwillryan.com/gold-digger.html) by Will Ryan
 - [The Mighty White Blood Cell](http://cargocollective.com/sansonedesign/The-Mighty-White-Blood-Cell) by Stacie Sansone 
 
@@ -68,9 +64,9 @@ The *Blocks* are licensed under The MIT License.
 About the author
 ----------------
 
-**Brad Tober** is an Assistant Professor of Graphic Design at the University of Illinois at Urbana-Champaign. His research addresses three interconnected areas that explore emerging code-based and interactive visual communication technologies and their relation to design: speculative design, design pedagogy, and interdisciplinary design.
+**Brad Tober**, currently an Assistant Professor in the School of Art and Design at the University of Illinois at Urbana-Champaign, is a designer, educator, and researcher whose work explores the potential of emerging code-based and interactive visual communication technologies, with the objective of identifying and investigating their relationships to design practice and pedagogy. His practice-led research entity, the Experimental Interface Lab, is characterized by a speculative approach to design (a manifestation of pure research) that recognizes that forms of and methodologies for contemporary practice that spans design and technology are best developed through fundamentally flexible and exploratory processes. Brad holds an MDes from York University (Toronto, Canada), a BFA in graphic design from the Savannah College of Art and Design, and a BA in mathematics from the University at Buffalo.
 
-Brad is currently located in Champaign, Illinois and is available for freelance design work, invited speaking engagements, and workshops&mdash;both near and far. He is also interested in forming productive collaborations involving both design research and practice. E-mail him at <btober@illinois.edu>, or visit his website at <http://www.bradtober.com>.
+Brad is currently located in Champaign, Illinois and is available for freelance design work, invited speaking engagements, and workshops&mdash;both near and far. He is also interested in forming productive collaborations involving both design research and practice. E-mail him at <brad@bradtober.com>, or visit his website at <http://www.bradtober.com>.
 
 
 References
