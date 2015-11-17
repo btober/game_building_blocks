@@ -42,7 +42,7 @@ This project is in continued development, with more *Blocks* expected to be adde
 Compatibility
 -------------
 
-All of the *Blocks* have been tested with Processing 2.2.1, in both Java and JavaScript modes.
+All of the *Blocks* have been tested with Processing 3.0.1 (Java mode).
 
 
 Examples

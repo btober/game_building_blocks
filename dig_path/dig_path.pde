@@ -1,7 +1,7 @@
 /*  
  dig_path
  Game Building Blocks for Processing
- (c) 2013 Brad Tober [http://www.bradtober.com]
+ (c) 2013–15 Brad Tober [http://www.bradtober.com]
  Licensed under The MIT License
  */
 
@@ -67,9 +67,11 @@ void clearPG(PGraphics graphics) { // we need this function for ProcessingJS com
 
 void copyPG(PGraphics source, PGraphics dest, int offset) { // we need this function for ProcessingJS compatibility, as copy() is messed up in PJS
   source.loadPixels();
+  dest.beginDraw();
   dest.loadPixels();
   for (int i = 0; i < (source.width * source.height) - (source.width * offset); i++) {
     dest.pixels[i] = source.pixels[(offset * source.width) + i];
   }
   dest.updatePixels();
+  dest.endDraw();
 }
