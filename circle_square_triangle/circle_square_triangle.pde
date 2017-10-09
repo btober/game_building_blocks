@@ -1,7 +1,7 @@
 /*  
  circle_square_triangle
  Game Building Blocks for Processing
- (c) 2013 Brad Tober [http://www.bradtober.com]
+ (c) 2013–2017 Brad Tober [http://www.bradtober.com]
  Licensed under The MIT License
  */
 

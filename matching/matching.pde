@@ -1,7 +1,7 @@
 /*  
  matching
  Game Building Blocks for Processing
- (c) 2014 Brad Tober [http://www.bradtober.com]
+ (c) 2013–2017 Brad Tober [http://www.bradtober.com]
  Licensed under The MIT License
  */
 
@@ -147,4 +147,3 @@ boolean winCheck(boolean[][] removed) {                                         
   println("You win!");  
   return true;
 }
-

@@ -1,7 +1,7 @@
 /*  
  simple_maze
  Game Building Blocks for Processing
- (c) 2013 Brad Tober [http://www.bradtober.com]
+ (c) 2013–2017 Brad Tober [http://www.bradtober.com]
  Licensed under The MIT License
  
  Get a new maze image at http://www.mazegenerator.net/ or use custom mazes with rgb(0, 0, 0) boundaries

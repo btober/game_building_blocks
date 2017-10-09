@@ -42,17 +42,7 @@ This project is in continued development, with more *Blocks* expected to be adde
 Compatibility
 -------------
 
-All of the *Blocks* have been tested with Processing 3.0.1 (Java mode).
-
-
-Examples
---------
-
-The following represent some of the games that have been designed and developed, in part, by using one or more of the *Blocks*:
-
-- [Bird Adventure](http://cargocollective.com/laurenblackburn/bird-adventure) by Lauren Blackburn
-- [Gold Digger](http://www.imwillryan.com/gold-digger.html) by Will Ryan
-- [The Mighty White Blood Cell](http://cargocollective.com/sansonedesign/The-Mighty-White-Blood-Cell) by Stacie Sansone 
+All of the *Blocks* have been tested with Processing 3.3.6 (Java mode).
 
 
 License
@@ -64,9 +54,9 @@ The *Blocks* are licensed under The MIT License.
 About the author
 ----------------
 
-**Brad Tober**, an Assistant Professor in the School of Art and Design at the University of Illinois at Urbana-Champaign, is a designer, educator, and researcher whose work explores the potential of emerging code-based and interactive visual communication technologies, with the objective of identifying and investigating their relationships to design practice and pedagogy. His practice-led research entity, the Experimental Interface Lab, is characterized by a speculative approach to design (a manifestation of pure research) that recognizes that forms of and methodologies for contemporary practice that spans design and technology are best developed through fundamentally flexible and exploratory processes. Brad holds an MDes from York University (Toronto, Canada), a BFA in graphic design from the Savannah College of Art and Design, and a BA in mathematics from the University at Buffalo.
+**Brad Tober** is a designer, educator, and researcher whose work explores the potential of emerging code-based and interactive visual communication technologies, with the objective of identifying and investigating their relationships to design practice and pedagogy. His practice-led research entity, the Experimental Interface Lab, is characterized by a speculative approach to design (a manifestation of pure research) that recognizes that forms of and methodologies for contemporary practice that spans design and technology are best developed through fundamentally flexible and exploratory processes. Brad holds an MDes from York University (Toronto, Canada), a BFA in graphic design from the Savannah College of Art and Design, and a BA in mathematics from the University at Buffalo.
 
-Brad is located in Champaign, Illinois and is available for freelance design work, invited speaking engagements, and workshops&mdash;both near and far. He is also interested in forming productive collaborations involving both design research and practice. E-mail him at <brad@bradtober.com>, or visit his website at <http://www.bradtober.com>.
+Brad is available for freelance design work, invited speaking engagements, and workshops&mdash;both near and far. He is also interested in forming productive collaborations involving both design research and practice. E-mail him at <brad@bradtober.com>, or visit his website at <http://www.bradtober.com>.
 
 
 References

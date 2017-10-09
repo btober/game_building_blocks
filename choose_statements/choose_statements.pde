@@ -1,7 +1,7 @@
 /*  
  choose_statements
  Game Building Blocks for Processing
- (c) 2014 Brad Tober [http://www.bradtober.com]
+ (c) 2013–2017 Brad Tober [http://www.bradtober.com]
  Licensed under The MIT License
  */
 
@@ -71,4 +71,3 @@ void getNewStatement() {
   splitStatement = split(statements[currentStatement], ", ");          // break the statement into its components
   order = int(random(0, 2));                                           // choose the order in which the components are displayed
 }
-
